@@ -9,5 +9,5 @@ const getData = async (number) => {
 }
 
 
-
+// export data
 export default getData
