@@ -39,7 +39,7 @@ function Form({addContact, contact }) {
                 </input>
             </div>
 
-            <div>
+            <div className={"btn"}>
                 <button onClick={onSubmit}>
                 Add</button>
             </div>
