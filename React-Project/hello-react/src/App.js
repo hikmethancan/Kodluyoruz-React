@@ -1,21 +1,14 @@
 import { useState } from 'react';
+import * as React from "react";
+import { Routes, Route, Link } from "react-router-dom";
 import './App.css';
-import Counter from './components/Counter'
-// import ettiğimiz componentin baş harfi Büyük harf ile yazılmalı
-// import User from './components/User'
-// import State from './components/State'
-
-
 
 function App() {
 
-    const [isVisible, setIsVisible] = useState(true)
 
   return (
     <div>
-      {isVisible && <Counter/>}
 
-      <button onClick={()=> setIsVisible(!isVisible)}>Deactive Counter</button>
     </div>
  
   );
